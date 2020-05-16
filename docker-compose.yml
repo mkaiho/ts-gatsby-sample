@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  workspace:
+    build:
+      context: docker/workspace
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+    tty: true
+    volumes:
+      - .:/home/workspace/ts-gatsby-sample
+    working_dir: /home/workspace/ts-gatsby-sample

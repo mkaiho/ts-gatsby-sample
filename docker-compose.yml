@@ -5,6 +5,7 @@ services:
       context: docker/workspace
       dockerfile: Dockerfile
     ports:
+      - 6006:6006
       - 8000:8000
     tty: true
     volumes:

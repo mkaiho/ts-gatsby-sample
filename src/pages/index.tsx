@@ -1,3 +1,4 @@
-import React from "react"
+import React from 'react'
+import Balloon from '@/components/atoms/icons/Balloon'
 
-export default () => <div>Hello world!</div>
+export default () => <Balloon />
